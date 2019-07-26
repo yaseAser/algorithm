@@ -25,3 +25,9 @@ class Solution {
         return $result;
     }
 }
+
+/**
+	11509 / 11509 个通过测试用例
+	状态：通过
+	执行用时：20 ms
+**/

@@ -46,6 +46,7 @@
     著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 **/
 
+//思路：大的一定在小的前面，如果小的出现在前面，说明一定要减去这个小的
 class Solution {
     public int romanToInt(String s) {
         Map<String,Integer> luoMaMap= new HashMap<String,Integer>();
@@ -77,3 +78,10 @@ class Solution {
         return sum;
     }
 }
+
+
+/**
+    3999 / 3999 个通过测试用例
+    状态：通过
+    执行用时：35 ms
+**/
